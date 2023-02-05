@@ -165,6 +165,6 @@ public class GameManager : MonoBehaviour
 
     public void GoToMain()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

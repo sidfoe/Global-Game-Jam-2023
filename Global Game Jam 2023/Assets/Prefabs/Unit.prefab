@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457774572271932228}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -2.35, z: 0}
-  m_LocalScale: {x: 16.661175, y: 16.384476, z: 4.9237976}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 13.618844, y: 13.500808, z: 4.9237976}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8154697574379989691}
@@ -135,7 +135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.68235296}
   m_FlipX: 0
@@ -225,7 +225,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &8033398232204697351
 MonoBehaviour:
@@ -256,8 +256,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -370,7 +370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6161975971534720870, guid: bed30931c6ebe7e45b0794313cd26e5e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.6
+      value: -1.25
       objectReference: {fileID: 0}
     - target: {fileID: 6161975971534720870, guid: bed30931c6ebe7e45b0794313cd26e5e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -432,7 +432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6161975971534720870, guid: bed30931c6ebe7e45b0794313cd26e5e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 6161975971534720870, guid: bed30931c6ebe7e45b0794313cd26e5e, type: 3}
       propertyPath: m_LocalPosition.y

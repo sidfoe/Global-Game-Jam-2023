@@ -8,6 +8,7 @@ public class CreatureBehaviour : MonoBehaviour
     public List<SpriteRenderer> sprites = new List<SpriteRenderer>();
     public List<Sprite> aTraits = new List<Sprite>(); //1 - 2 : 2 being ab instead of just aa
     public List<Sprite> bTraits = new List<Sprite>(); //3
+    public List<Sprite> bodyBase = new List<Sprite>();
 
     public int id = -1;
 
@@ -49,6 +50,8 @@ public class CreatureBehaviour : MonoBehaviour
                 sprites[trait.Key].sprite = trait.Value == 3 ? bTraits[trait.Key + (GameManager.spriteGroupType * 5)] : aTraits[trait.Key + (GameManager.spriteGroupType * 5)];
             }
         }
+
+        gameObject.GetComponent<SpriteRenderer>().sprite = bodyBase[GameManager.spriteGroupType];
     }
 
     public int GetId()
